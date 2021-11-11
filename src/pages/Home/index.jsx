@@ -85,7 +85,11 @@ const Home = () => {
             outlined
             label="Pesquisar"
             trailingIcon={<MaterialIcon role="button" icon="search" />}>
-            <Input type="text" value={value} onKeyPress={handleKeyPress} onChange={handleChange} />
+            <Input 
+              type="text" 
+              value={value} 
+              onKeyPress={handleKeyPress} 
+              onChange={handleChange} />
           </TextField>
           {renderCarousel()}
         </Search>
